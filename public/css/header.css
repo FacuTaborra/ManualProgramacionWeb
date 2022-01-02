@@ -1,0 +1,85 @@
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #FFD7BA;
+    width: 100%; 
+    font-size: 2rem;
+}
+
+.search span{
+    font-size: 2.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.search span{
+    margin-bottom: 10px;
+}
+
+.SearchConteiner{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formSearch{
+    display: flex;
+    width: 70%;
+}
+
+.formSearch input{
+    width: 80%;
+    background-color: white;
+    height: 30px;
+    padding: 5px 10px 5px 10px ;
+    font-size: 1.3rem;
+    border: 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+.formSearch .button{
+    width: 20%;
+    margin-left: 2px;
+    border: 1px solid white;
+}
+
+.containerNav{
+    border-top: solid 2px #FAE1DD;
+    background-color: #FFE5D9;
+    display: flex;
+    justify-content: center;
+}
+
+.modules{
+    margin-top: 0px;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 5px;
+    overflow-x: auto;
+}
+
+.containerNav .modules::-webkit-scrollbar{
+    width: 7px;
+}
+
+.barra{
+    font-size: 30px;
+}
+
+.modules .item{
+    font-size: 1.5em;
+    margin: 5px;
+    min-width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
